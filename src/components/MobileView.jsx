@@ -6,7 +6,7 @@ const MobileView = () =>{
     const [isNavOpen, setNavOpen] = useState(false);
 
     const toggleNav =() =>{
-        setNavOpen()
+        setNavOpen(!isNavOpen);
     }
 
     return(

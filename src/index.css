@@ -3,7 +3,7 @@
 
 :root {
   font-family: "Alata", sans-serif;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,6 +22,12 @@ body{
   background-image: url('D:\React\loopstudio-landing-page\src\assets\images\desktop\image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 845px){
+  body{
+    background-image: url('D:\React\loopstudio-landing-page\src\assets\images\mobile\image-hero.jpg');
+    width:100vw;
+  }
 }
 
 

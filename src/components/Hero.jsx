@@ -7,7 +7,8 @@ const Hero = () =>{
             <Header/>
             <section className="hero">
                 <div className="hero-content-wrapper">
-                    <p className="hero-content">immersive experiences that delivers</p>
+                    <p className="hero-content">immersive experiences</p>
+                    <p className="hero-content">that delivers</p>
                 </div>
             </section>
         </div>

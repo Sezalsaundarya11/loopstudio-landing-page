@@ -1,60 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
-.main-container {
-  font-family: "Alata", sans-serif;
-  width: 70%;
-  margin: 0 auto;
+.main-container{
+  font-family: 'Alata', sans-serif;
+  width:70%;
+  margin:0 auto;
   text-decoration: none;
   z-index: 10;
 }
-.overlay-div {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  inset: 0;
+.overlay-div{
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  inset:0;
   background-color: black;
   opacity: 0.35;
 }
-.hero-container {
-  display: flex;
+.hero-container{
+  display:flex;
   flex-direction: column;
-  gap: 2rem;
-  z-index: 20;
+  gap:3rem;
+  z-index:20;
 }
-header {
-  display: flex;
+header{
+  display:flex;
   justify-content: space-between;
-  padding: 4rem 0;
+  padding:5rem 0;
   z-index: 10;
 }
-nav ul {
-  display: flex;
-  gap: 1.7rem;
+nav ul{
+  display:flex;
+  gap:1.7rem;
   list-style-type: none;
   font-size: 15px;
 }
-nav a {
+nav a{
   text-decoration: none;
   color: hsl(0, 0%, 100%);
-  padding-bottom: 0.7rem;
+  padding-bottom:0.4rem;
 }
-nav a:hover {
+nav a:hover{
   border-bottom: 2px solid hsl(0, 0%, 100%);
+} 
+.hero{
+  z-index:20;
 }
-.hero {
-  z-index: 20;
-}
-.hero-content-wrapper {
-  padding: 2rem;
-  border: 1px solid white;
-  color: white;
-  width: 500px;
+.hero-content-wrapper{
+  padding: 1.5rem 3rem 1.5rem 1.5rem;
+  border:2px solid white;
+  color:white;
+  max-width:650px;
   height: fit-content;
 }
-.hero-content {
-  font-family: "Josefin Sans", sans-serif;
+.hero-content{
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  font-size: 3rem;
-  z-index: 10;
+  font-size: 4rem;
+  font-weight: 300;
+  z-index:10;
 }
+
