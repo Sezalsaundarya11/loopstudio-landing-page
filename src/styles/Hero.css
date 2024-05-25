@@ -1,0 +1,61 @@
+.hero-container{
+    padding:4rem 0;
+    display:flex;
+    flex-direction: column;
+    gap:6rem;
+    z-index:20;
+    background-image: url('D:\React\loopstudio-landing-page\src\assets\images\desktop\image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:80vh;
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    z-index: 10;
+    width:75%;
+    margin:0 auto;
+  }
+  nav ul{
+    display:flex;
+    gap:1.7rem;
+    list-style-type: none;
+    font-size: 15px;
+  }
+  nav a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding-bottom:0.4rem;
+  }
+  nav a:hover{
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+  } 
+  .hero{
+    z-index:20;
+    width:75%;
+    margin: 0 auto;
+  }
+  .hero-content-wrapper{
+    padding: 2rem 3rem 2rem 2rem;
+    border:2px solid white;
+    color:white;
+    max-width:650px;
+    height: fit-content;
+  }
+  .hero-content{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.25rem;
+    font-weight: 300;
+    z-index:10;
+  }
+  
+  @media screen and (max-width: 845px){
+    .hero-container{
+      background-image: url('D:\React\loopstudio-landing-page\src\assets\images\mobile\image-hero.jpg');
+      width:100vw;
+    }
+  }
+  
+  

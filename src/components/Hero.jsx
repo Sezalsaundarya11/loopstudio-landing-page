@@ -1,4 +1,5 @@
 import Header from './Header';
+import '../../src/styles/Hero.css';
 
 const Hero = () =>{
     return(
