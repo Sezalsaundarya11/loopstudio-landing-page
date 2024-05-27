@@ -6,6 +6,7 @@
   margin:0 auto;
   text-decoration: none;
   z-index: 10;
+  overflow-x: hidden;
 }
 html{
   width: 100vw;
@@ -18,11 +19,7 @@ html{
   background-color: black;
   opacity: 0.35;
 }
-.creation-cards{
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
-}
-footer{
-  background-color: black;
-  color:white;
+.no-scroll{
+  overflow-x:hidden;
+  overflow-y: hidden;
 }

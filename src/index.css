@@ -19,7 +19,7 @@ body{
   position: relative;
   width:100vw;
   text-decoration: none;
-  
+  overflow-x: hidden;
 }
 
 

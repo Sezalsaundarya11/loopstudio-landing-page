@@ -32,7 +32,7 @@
     border-bottom: 2px solid hsl(0, 0%, 100%);
   } 
   .hero{
-    z-index:20;
+    z-index:10;
     width:75%;
     margin: 0 auto;
   }
@@ -55,9 +55,6 @@
     .hero-container{
       background-image: url('D:\React\loopstudio-landing-page\src\assets\images\mobile\image-hero.jpg');
       width:100vw;
-    }
-    nav{
-      display:none;
     }
   }
   

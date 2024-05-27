@@ -1,15 +1,33 @@
+import '../styles/Creation.css';
+
+// const Creation = ({title, desktopImg, mobileImg, alt}) => {
+//     return (
+//         <div className="cards-display">
+//             <picture>
+//                 <source srcSet={mobileImg} media="(max-width:999px)"/>
+//                 <img src={desktopImg} alt={alt}/>
+//             </picture>
+//             <div className="crad-title">
+//                 <p>{title}</p>
+//             </div>
+//         </div>
+//     )
+// }
+
 const Creation = ({title, desktopImg, mobileImg, alt}) => {
     return (
         <div className="cards-display">
-            <picture>
-                <source srcSet={mobileImg} media="(max-width:845px)"/>
-                <img src={desktopImg} alt={alt}/>
-            </picture>
-            <div className="crad-title">
-                <p>{title}</p>
+            <div className="picture-container">
+                <picture>
+                    <source srcSet={mobileImg} media="(max-width: 999px)" />
+                    <img src={desktopImg} alt={alt} />
+                </picture>
+                <div className="card-title">
+                    <p>{title}</p>
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Creation;
