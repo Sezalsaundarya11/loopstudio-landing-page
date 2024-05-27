@@ -1,3 +1,6 @@
+import Creation from './Creation.jsx';
+import { CARDS } from '../assets/images/data.js';
+
 const Creations = () =>{
     return(
         <div className="creation-container">
@@ -7,9 +10,12 @@ const Creations = () =>{
                      <button className="see-all">See alls</button>
                 </div>
                 <div className="creation-cards">
+                    {CARDS.map((cards)=>(
+                        <Creation key ={cards.title} {...cards}/>
+                    ))}
 
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import interactiveImg from '../../src/assets/images/desktop/image-interactive.jpg';
+import interactiveImgMobile from '../../src/assets/images/mobile/image-interactive.jpg'
 import '../styles/Introduction.css';
 
 const Introduction = () => {
@@ -6,8 +7,11 @@ const Introduction = () => {
     <>
       <div className="intro-container">
         <div className="intro-main">
-          <div className="into-left">
-            <img src={interactiveImg} alt="interactive-image" className='interactive-img' />
+          <div className="into-left">  
+            <picture>
+              <source srcSet={interactiveImgMobile} media='(max-width:845px)'/>
+              <img src={interactiveImg} alt="interactive-image" className='interactive-img' />  
+            </picture>
           </div>
           <div className="intro-right">
             <h2 className="intro-heading">The Leader in interactive VR</h2>

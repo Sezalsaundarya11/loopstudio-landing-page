@@ -56,6 +56,9 @@
       background-image: url('D:\React\loopstudio-landing-page\src\assets\images\mobile\image-hero.jpg');
       width:100vw;
     }
+    nav{
+      display:none;
+    }
   }
   
   

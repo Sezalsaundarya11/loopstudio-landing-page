@@ -16,7 +16,7 @@ import curiosityDesktop from './desktop/image-curiosity.jpg';
 import curiosityMobile from './mobile/image-curiosity.jpg';
 
 
-export const Cards = [
+export const CARDS = [
     {id:0, title: 'Deep Earth' , desktopImg: deepEarthDesktop , mobileImg: deepEarthMobile, alt:'deep-earth-img'},
     {id:1, title: 'Night Arcade' , desktopImg: nightArcadeDesktop , mobileImg: nightArcadeMobile, alt:'night-arcade-img'},
     {id:2, title: 'Soccer Team VR' , desktopImg: soccerTeamDesktop , mobileImg: soccerTeamMobile, alt:'soccer-team-vr-img'},
@@ -25,4 +25,4 @@ export const Cards = [
     {id:5, title: 'Pocket Borealis' , desktopImg: pocketDesktop , mobileImg: pocketMobile, alt:'pocket-img'},
     {id:6, title: 'The Curiosity' , desktopImg: curiosityDesktop , mobileImg: curiosityMobile, alt:'curiosity-img'},
     {id:7, title: 'Make it fisheye' , desktopImg: fisheyeDesktop , mobileImg: fisheyeMobile, alt:'fish-eye-img'}
-]
+];

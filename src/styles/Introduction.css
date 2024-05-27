@@ -9,8 +9,10 @@
 }
 .intro-left{
     position: relative;
+    width:50%;
 }
 .intro-right{
+    width:50%;
     display:flex;
     flex-direction: column;
     gap:2rem;
@@ -33,4 +35,18 @@
     font-size: 15.5px;
     text-align: start;
 
+}
+
+@media screen and (max-width:845px){
+    .intro-main{
+        flex-direction: column;
+        position:static;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro-right{
+        position:static;
+        width:100%;
+        padding: 2rem;
+    }
 }
