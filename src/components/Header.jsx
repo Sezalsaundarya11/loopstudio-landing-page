@@ -26,8 +26,8 @@ const Header = () => {
             <img className="logo-image" src={logo} alt="logo-image" />
           </a>
         </div>
-        <div>
-          {isWidth >=845 ?<DesktopView/> : <MobileView/>}
+        <div className="navbar-display">
+          {isWidth >=720 ?<DesktopView/> : <MobileView/>}
         </div>
       </header>
     </>

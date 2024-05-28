@@ -8,8 +8,8 @@ const Introduction = () => {
       <div className="intro-container">
         <div className="intro-main">
           <div className="into-left">  
-            <picture>
-              <source srcSet={interactiveImgMobile} media='(max-width:845px)'/>
+            <picture id='intro-img'>
+              <source srcSet={interactiveImgMobile} media='(max-width:1226px)'/>
               <img src={interactiveImg} alt="interactive-image" className='interactive-img' />  
             </picture>
           </div>

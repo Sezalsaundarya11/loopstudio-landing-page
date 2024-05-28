@@ -21,6 +21,9 @@ body{
   text-decoration: none;
   overflow-x: hidden;
 }
+.overflow{
+  overflow-y: hidden;
+}
 
 
 
